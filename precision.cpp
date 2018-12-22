@@ -82,6 +82,7 @@ int main() {
   auto v2 = Double<4>(12.34);
   auto v3 = v1 + v2;
 
+  // Output: "1.11 * 10^0 + 1.234 * 10^1 = 1.34 * 10^1"
   std::cout << v1 << " + " << v2 << " = " << v3 << std::endl;
 
   return 0;
